@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dataclass-alias"
+version = "0.1.0"
+description = "Simple aliasing for dataclass working with orjson and ormsgpack "
+authors = ["Ilsaf.G <ilsafganiev2222@gmail.com>"]
+readme = "README.md"
+package-mode = true
+packages = [
+    { include = "dataclass_alias" },
+]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
